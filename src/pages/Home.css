@@ -1,0 +1,21 @@
+.home-container {
+    position: relative;           /* Pour pouvoir placer l'image absolument */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;      /* Centre le texte verticalement */
+    align-items: center;          /* Centre le texte horizontalement */
+    text-align: center;
+    padding: 20px;
+    color: #333;                  /* Texte lisible */
+  }
+  
+  .comptoir-image {
+    position: absolute;           /* Position libre */
+    top: 100px;                    /* Distance du haut */              /* Distance de la droite */
+    width: 40%;                 /* Largeur de l'image */
+    height: auto;
+    object-fit: cover;            /* Garde les proportions */
+    z-index: 0;                   /* Derrière le texte si besoin */
+  }
+  
