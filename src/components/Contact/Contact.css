@@ -1,0 +1,90 @@
+.contact{
+    margin: 80px auto;
+    display: flex;
+
+}
+
+.textContact{
+    flex-basis: 48%;
+    
+
+}
+
+
+.textContact h3{
+    color:#008B8B;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+
+.info img{
+    width: 40px;
+    margin-left: 15px;
+  
+
+
+}
+
+.info p,
+.info ul,
+
+.info li {
+  max-width: 450px;
+  color:#676767;
+  margin-bottom: 10px;
+  text-align: justify;
+  list-style: 0.3;
+}
+
+.info ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+.infocall img{
+    width: 25px;
+    margin-right: 15px;
+    margin-left:0px
+
+}
+
+.contact-hours p{
+    color:#A67C00;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background:#FFF8F0 ;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize:none;
+}
+
+.contactForm{
+    flex-basis: 50%;
+    margin-top: 30px;
+}
+
+.contactForm span{
+   display: block;
+   margin: 20px 0;
+
+}
+

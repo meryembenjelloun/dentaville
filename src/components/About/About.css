@@ -1,0 +1,61 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.leftAbout{
+    flex-basis: 40%;
+    position: relative;
+
+}
+
+.rightAbout{
+    flex-basis: 56%;
+}
+
+.imgAbout{
+    width:100%;
+    border-radius: 15px;
+
+}
+
+.playIcon{
+    width: 60px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.about h3{
+    font-weight: 650;
+    font-weight: 16px;
+    color:#008B8B ;
+
+}
+
+.about h2{
+    font-size: 40px;
+    margin: 15px 0;
+  
+}
+
+.about p,
+.about ul,
+
+.about li {
+  color: #676767;
+  max-width: 800px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.about ul {
+    list-style-type: none; /* supprime les puces */
+    padding-left: 0; /* enlève l’indentation par défaut */
+  }

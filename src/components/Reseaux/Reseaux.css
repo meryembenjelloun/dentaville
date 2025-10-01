@@ -1,0 +1,48 @@
+.reseaux{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.yasmine-pic{
+    margin-top: 100px;
+    flex-basis: 50%;
+    position: relative;
+}
+
+.yasmine-pic img{
+    width:100%;
+    border-radius: 40px;
+ 
+
+}
+
+.icons{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    
+ 
+}
+
+.icons h2{
+    text-align: center;
+font-size: 30px;
+font-weight: 700;
+
+margin: 100px 0 40px;
+color: #008B8B;
+ 
+}
+
+
+
+
+.icons img{
+  margin-left:100px;
+  width:50px;
+  cursor: pointer;
+}

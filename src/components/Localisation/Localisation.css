@@ -1,0 +1,27 @@
+.localisation{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.locaLeft{
+    flex-basis: 30%;
+    position: relative;
+
+}
+
+.locaRight{
+    flex-basis: 60%;
+}
+
+
+
+.imgLoca{
+    width: 100%;
+    
+    border-radius: 20px;
+
+}
