@@ -34,14 +34,22 @@
     }
     .locaLeft{
         flex-basis: 100%;
-        margin: 20px;
+        display: flex;
+        width: 100%;   
+        justify-content: center;
+        align-items: center;
+    }
+
+    .locaLeft video{
+        max-width: 100%;
+        max-height: 100%;
     }
 
     .locaRight{
 
         flex-basis: 100%;
         margin: 20px;
-        margin-top: 40px;
+        
         
     }
 }

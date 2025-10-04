@@ -9,9 +9,9 @@
 }
 
 .service {
-    flex-basis: 31%;
-    height: 250px;           /* hauteur uniforme pour toutes les images */
-    overflow: hidden;        /* cache le surplus si l'image dépasse */
+    flex-basis: calc(50% - 10px);
+    height: 250px;          
+    overflow: hidden;        
     border-radius: 15px;
     position: relative;
 }
@@ -19,7 +19,7 @@
 .service img {
     width: 100%;
     height: 100%;
-    object-fit: cover;       /* remplit le container sans déformer l'image */
+    object-fit: cover;      
     display: block;
 }
 
@@ -31,18 +31,14 @@
     left:0;
     bottom:0;
     right:0;
-    background:rgba(32, 178, 170, 0.6);
+    background:rgba(166, 124, 0, 0.6);
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     color: #fff;
-    cursor: pointer;
-    opacity: 0;
-    padding-top: 70%;
-    transition: 1s;
-
+  
 }
 
 .caption img{
@@ -63,7 +59,7 @@
     margin: 0;
     max-width: 250px;
 }
-
+/*
 .service:hover .caption{
     opacity: 1;
     padding-top: 0;
@@ -72,6 +68,9 @@
 
 }
 
+opacity: 0;
+padding-top: 70%;
+transition: 1s;*/
 @media (max-width: 840px){
     .services{
         flex-direction: block;

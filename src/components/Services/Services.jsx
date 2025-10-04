@@ -7,6 +7,7 @@ import implant from '../../assets/implant.png'
 import gouttieres from '../../assets/gouttieres.png'
 import chirurgie from '../../assets/chirurgie.png'
 import enfants from '../../assets/enfants.png'
+import radio from '../../assets/8.png'
 import icon from '../../assets/dent.png'
 
 const Services = () => {
@@ -16,7 +17,7 @@ const Services = () => {
             <img src={soins} alt="" />
         <div className="caption">
             <img src={icon} alt="" />
-            <h1>Soins dentaires & traitements conservateurs</h1>
+            <h1>Soins dentaires  &  traitements conservateurs</h1>
             <p>Caries, dévitalisations, urgences, soins de gencives</p>
         </div>
         </div>
@@ -32,7 +33,7 @@ const Services = () => {
             <img src={protheses} alt="" />
             <div className="caption">
             <img src={icon} alt="" />
-            <h1>Prothèses & restauration dentaire</h1>
+            <h1>Prothèses  &  restauration dentaire</h1>
             <p>Couronnes, bridges, prothèses fixes et amovibles</p>
         </div>
         </div>
@@ -48,7 +49,7 @@ const Services = () => {
             <img src={gouttieres} alt="" />
             <div className="caption">
             <img src={icon} alt="" />
-            <h1>Orthodontie invisible(aligneurs)</h1>
+            <h1>Orthodontie invisible (aligneurs)</h1>
             <p>Correction discrète de l'alignement dentaire</p>
         </div>
         </div>
@@ -64,13 +65,23 @@ const Services = () => {
             <img src={enfants} alt="" />
             <div className="caption">
             <img src={icon} alt="" />
-            <h1>Pédodontie(soins dentaires pour enfants)</h1>
+            <h1>Pédodontie (soins dentaires pour enfants)</h1>
             <p>Prévention, caries, soins adaptés aux plus jeunes</p>
         </div>
         </div>
+        <div className='service'>
+            <img src={radio} alt="" />
+            <div className="caption">
+            <img src={icon} alt="" />
+            <h1>Radiologie panoramique</h1>
+            <p>Vue d’ensemble claire et précise de vos dents et mâchoires.</p>
+            </div>
+        </div>
         
+       
       
     </div>
+   
   )
 }
 
