@@ -53,7 +53,7 @@ const Contact = () => {
                 <h3>Nos horaires</h3>
                 <p>Lundi - Vendredi : 9h - 18h</p>
                 <p>Samedi : 9h - 13h</p>
-                <p>Dimanche : Fermé</p>
+                <p>Dimanche : fermé</p>
            </div>
         </div>
 
@@ -61,15 +61,15 @@ const Contact = () => {
 
             <form onSubmit={onSubmit}>
                 <label>Prénom</label>
-                <input type="text" name='prénom' placeholder='Entrez votre prénom' />
+                <input type="text" name='prénom' placeholder='Entrer votre prénom' />
                 <label>Nom de famille</label>
-                <input type="text" name='nf' placeholder='Entrez votre nom de famille' />
+                <input type="text" name='nf' placeholder='Entrer votre nom de famille' />
                 <label>Numéro de téléphone</label>
-                <input type="tel" name='tel' placeholder='Entrez votre numéro de téléphone' />
+                <input type="tel" name='tel' placeholder='Entrer votre numéro de téléphone' />
                 <label>Adresse mail</label>
-                <input type="email" name='tel' placeholder='Entrez votre email' />
+                <input type="email" name='tel' placeholder='Entrer votre email' />
                 <label>Message</label>
-                <textarea name="message" rows="6" placeholder='Entrez votre message'required></textarea>
+                <textarea name="message" rows="6" placeholder='Entrer votre message'required></textarea>
                 <button type='submit' className='myBtn'>Envoyer</button>
             </form>
             <span>{result}</span>
