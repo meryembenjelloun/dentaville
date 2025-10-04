@@ -1,6 +1,6 @@
 import React from 'react'
 import './Reseaux.css'
-import yas from '../../assets/yasmine.png'
+import yas from '../../assets/Yasmine.png'
 import tiktok from '../../assets/tiktok.png'
 import insta from '../../assets/insta.png'
 
