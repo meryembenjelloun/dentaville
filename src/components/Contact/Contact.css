@@ -41,6 +41,7 @@
   color:#676767;
   margin-bottom: 10px;
   text-align: justify;
+  hyphens: auto;
   list-style: 0.3;
 }
 

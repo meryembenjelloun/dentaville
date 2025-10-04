@@ -54,6 +54,7 @@
   max-width: 800px;
   margin-bottom: 10px;
   text-align: justify;
+  hyphens: auto;
 }
 
 .about ul {
