@@ -30,6 +30,7 @@
     left:50%;
     transform: translate(-50%,-50%);
     cursor: pointer;
+    
 }
 
 .about h3{
@@ -59,3 +60,23 @@
     list-style-type: none; /* supprime les puces */
     padding-left: 0; /* enlève l’indentation par défaut */
   }
+
+
+  @media(max-width: 840px){
+    .about{
+        flex-direction: column;
+    }
+    .leftAbout{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+
+    }
+
+    .rightAbout{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+
+
+}

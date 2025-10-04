@@ -2,13 +2,18 @@ import React from 'react'
 import './Localisation.css'
 import play from '../../assets/playIcon.png'
 import loca from '../../assets/Loca.png'
+import locavid from '../../assets/localisationDenta.mp4'
 
 const Localisation = () => {
   return (
     <div className='localisation'>
         <div className="locaLeft">
-            <img src={loca} alt="" className='imgLoca' />
-            <img src={play} alt=""  className='playIcon' />
+        <video src={locavid}
+         controls
+         autoPlay muted loop
+        >
+        </video>
+       
 
 
         </div>
