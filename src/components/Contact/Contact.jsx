@@ -61,12 +61,12 @@ const Contact = () => {
 
             <form onSubmit={onSubmit}>
                 <label>Prénom</label>
-                <input type="text" name='prénom' placeholder='Entrez votre nom' />
+                <input type="text" name='prénom' placeholder='Entrez votre prénom' />
                 <label>Nom de famille</label>
                 <input type="text" name='nf' placeholder='Entrez votre nom de famille' />
                 <label>Numéro de téléphone</label>
                 <input type="tel" name='tel' placeholder='Entrez votre numéro de téléphone' />
-                <label>Adresse Mail</label>
+                <label>Adresse mail</label>
                 <input type="email" name='tel' placeholder='Entrez votre email' />
                 <label>Message</label>
                 <textarea name="message" rows="6" placeholder='Entrez votre message'required></textarea>

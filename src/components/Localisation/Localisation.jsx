@@ -10,7 +10,7 @@ const Localisation = () => {
         <div className="locaLeft">
         <video src={locavid}
          controls
-         autoPlay muted loop
+         
         >
         </video>
        
