@@ -59,25 +59,26 @@ nav ul li{
 }
 
 @media(max-width: 840px){
-    nav{
-        padding: 15px 0;
-
-    }
+   
     nav ul{
-        position:fixed;
-        top:0;
-        right:0px;
+        position: fixed;
+        top: 10;
+        right: 10;
         bottom: 0;
-        background:#FAEEDB ;
-        z-index: -1;
-        width: 200px;
-        padding-top: 70px;
-        transition: 0.5s;
-
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(250, 238, 219, 0.8);
+        backdrop-filter: blur(8px); 
+        -webkit-backdrop-filter: blur(8px); 
+        padding-top: 120px;
+        text-align: center;
+        transition: 0.5s ease;
     }
     nav ul li{
         display: block;
-        margin: 25px 40px;
+        margin: 30px 0;
+        color: #A67C00
        
     }
     .menu{
@@ -85,9 +86,10 @@ nav ul li{
         width: 30px;
         cursor: pointer;
         margin-right: 10px;
+        z-index: 1001;
     }
 
    .hideMenu{
-    right:-200px;
+    transform: translateX(100%);
    }
 }

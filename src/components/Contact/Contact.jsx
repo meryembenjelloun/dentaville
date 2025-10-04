@@ -39,10 +39,10 @@ const Contact = () => {
             <p> Veuillez noter que la prise de rendez-vous se fait exclusivement par téléphone.</p>
             <div className="infocall">
             <ul>
-                <li><img src={wtsp} alt="" />+212 6512-26061</li>
-                <li><img src={tel} alt="" />+212 5377-23030</li>
-                <li><img src={mess} alt="" />dentaville@gmail.com</li>
-                <li><img src={loca} alt="" />1er étage, appt 3, immeuble 12 Av. Allal Ben Abdellah<br/>Rabat 10000, Maroc</li>
+                <li><img src={wtsp} alt="" /><a href="https://wa.me/212651226061" target="_blank">+212 6512-26061</a></li>
+                <li><img src={tel} alt="" /><a href="tel:+212537723030">+212 5377-23030</a></li>
+                <li><img src={mess} alt="" /><a href="mailto:dentaville@gmail.com">dentaville@gmail.com</a></li>
+                <li><img src={loca} alt="" />Appartement 3, 1er étage<br/>Immeuble 12, Avenue Allal Ben Abdellah<br/>Rabat 10000<br/>Maroc</li>
 
             </ul>
             </div>

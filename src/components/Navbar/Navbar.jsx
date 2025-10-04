@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from'../../assets/logo.png'
 import menu from'../../assets/menuBar.png'
+import croix from '../../assets/cross.png'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -18,16 +19,7 @@ const Navbar = () => {
         mobileMenu? setMenu(false) : setMenu(true);
 
     }
-    useEffect(() => {
-        const handleClickOutside = (e) => {
-          if (!e.target.closest("nav")) {
-            setMenu(false);
-          }
-        };
-      
-        document.addEventListener("click", handleClickOutside);
-        return () => document.removeEventListener("click", handleClickOutside);
-      }, []);
+
   return (
    
 
@@ -36,12 +28,12 @@ const Navbar = () => {
     <img src={logo} alt="Dentaville" className="logo" />
   </Link>
       <ul className={mobileMenu? '' : 'hideMenu'}>
-        <li><Link to='hero' smooth={true} offset={-270} duration={500}>Accueil</Link></li>
-        <li><Link to='services' smooth={true} offset={-270} duration={500}>Nos services</Link></li>
-        <li><Link to='about' smooth={true} offset={-270} duration={500}>À propos de nous</Link></li>
-        <li><Link  to='contact' smooth={true} offset={-270} duration={500} className='myBtn'>Contact</Link></li>
+        <li><Link to='hero' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>Accueil</Link></li>
+        <li><Link to='services' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>Nos services</Link></li>
+        <li><Link to='about' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>À propos de nous</Link></li>
+        <li><Link  to='contact' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)} className='myBtn'>Contact</Link></li>
       </ul>
-      <img src={menu} alt="" className='menu' onClick={changeMenu} />
+      <img src={mobileMenu? croix : menu} alt="" className='menu' onClick={changeMenu} />
     </nav>
   )
 }
