@@ -54,12 +54,16 @@
   max-width: 800px;
   margin-bottom: 10px;
   text-align: justify;
+  text-justify: inter-word;
   hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: normal;
+  line-height: 1.6;
 }
 
 .about ul {
-    list-style-type: none; /* supprime les puces */
-    padding-left: 0; /* enlève l’indentation par défaut */
+    list-style-type: none; 
+    padding-left: 0; 
   }
 
 
@@ -69,14 +73,15 @@
     }
     .leftAbout{
         flex-basis: 100%;
-        margin: 20px;
+        margin: auto;
+        margin-top: 10%;
         order: 2;
 
     }
 
     .rightAbout{
         flex-basis: 100%;
-        margin: 20px;
+        margin: auto;
     }
 
 

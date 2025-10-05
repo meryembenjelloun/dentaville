@@ -41,8 +41,12 @@
   color:#676767;
   margin-bottom: 10px;
   text-align: justify;
+  text-justify: inter-word;
   hyphens: auto;
-  list-style: 0.3;
+  overflow-wrap: break-word;
+  word-break: normal;
+  line-height: 1.6;
+  
 }
 
 .info ul li {
@@ -83,7 +87,7 @@
 .contactForm{
     flex-basis: 50%;
     margin-top: 30px;
-    margin-left: auto;
+    margin-left: 20%;
     margin-right: auto;
     
 }
@@ -102,11 +106,13 @@
     .contactForm{
         padding: 20px;
         flex-basis: 100%;
+        margin: auto;
     }
 
     .textContact{
         flex-basis: 100%;
         padding: 20px;
+        margin: auto;
     }
 }
 
