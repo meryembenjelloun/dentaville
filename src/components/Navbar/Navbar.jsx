@@ -31,8 +31,8 @@ const Navbar = () => {
         <li><Link to='hero' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>Accueil</Link></li>
         <li><Link to='services' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>Nos services</Link></li>
         <li><Link to='about' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>À propos de nous</Link></li>
+        <li><Link to='compare' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>Cas cliniques</Link></li>
         <li><Link  to='localisation' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>Localisation</Link></li>
-        <li><Link  to='contact' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)}>Prise de rendez-vous</Link></li>
         <li><Link  to='contact' smooth={true} offset={-270} duration={500} onClick={() => setMenu(false)} className='myBtn'>Contact</Link></li>
       </ul>
       <img src={mobileMenu? croix : menu} alt="" className='menu' onClick={changeMenu} />
