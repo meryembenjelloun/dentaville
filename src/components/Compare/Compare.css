@@ -59,6 +59,7 @@
     .compare-image-container{
         order:2;
         width: 100%;
+        touch-action: none;
     }
     .compare-description {
         margin-left: 0;
