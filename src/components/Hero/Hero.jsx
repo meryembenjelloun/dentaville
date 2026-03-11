@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="hero-rdv">
 
               <a
-                href="https://wa.me/212651260661"
+                href="https://wa.me/212651226061"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hero-rdv-btn"
@@ -54,7 +54,7 @@ const Hero = () => {
 
                 <div>
                   <p className="hero-contact-title">Écrivez-nous</p>
-                  <p className="hero-contact-number">+212 6512-26061</p>
+                  <p className="hero-contact-number">+212 65122-6061</p>
                 </div>
 
               </a>
@@ -94,7 +94,7 @@ const Hero = () => {
 
               <div>
                 <p className="hero-contact-title">Appeler maintenant</p>
-                <p className="hero-contact-number">+212 6512-26061</p>
+                <p className="hero-contact-number">+212 65122-6061</p>
               </div>
 
             </a>
