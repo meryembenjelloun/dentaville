@@ -102,6 +102,7 @@
     .chirurgie{
         flex-direction:column;
         gap:35px;
+        margin:25px auto;
     }
     
     /* TEXTE */

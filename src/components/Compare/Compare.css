@@ -52,9 +52,12 @@
     position: relative;
   }
 
-  @media(max-width: 1000px){
+  @media(max-width: 900px){
+    .compare{
+      margin:20px auto;
+    }
     .compares{
-        flex-direction: column;
+      flex-direction: column;
     }
     .compare-image-container{
         order:2;
@@ -66,6 +69,10 @@
         align-items: center;
         max-width: 400px;
     }
+    .compare-description p{
+      font-size:14px;
+      line-height:1.6;
+      }
 
   }
   

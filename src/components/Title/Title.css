@@ -18,11 +18,25 @@
 
     .title{
         font-size:16px;
-        margin:70px 0 30px;
+        margin:60px 0 5px;   /* réduit l’espace sous le titre */
+    }
+    
+    .title p{
+        font-size:14px;
+        margin-bottom:2px;
     }
     
     .title h2{
         font-size:28px;
+        margin-top:0;
+        margin-bottom:4px;
+    }
+    
+    /* réduit l’espace entre le titre et le texte */
+    .us p:first-child{
+        margin-top:0;
     }
     
     }
+    
+    
