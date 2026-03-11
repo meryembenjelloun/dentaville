@@ -36,12 +36,12 @@ const Contact = () => {
             <div className="info">
             <h3>Envoyez nous un message <img src={mess} alt="" /></h3>
             <p>Pour toute information supplémentaire, n’hésitez pas à nous contacter en remplissant le formulaire ci-contre. </p> 
-            <p> Veuillez noter que la prise de rendez-vous se fait exclusivement par téléphone.</p>
+            <p> <strong>Veuillez noter que la prise de rendez-vous se fait exclusivement par téléphone ou via WhatsApp.</strong></p>
             <div className="infocall">
             <ul>
-                <li><img src={wtsp} alt="" /><a href="https://wa.me/212651226061" target="_blank">+212 6512-26061</a></li>
-                <li><img src={tel} alt="" /><a href="tel:+212537723030">+212 5377-23030</a></li>
-                <li><img src={mess} alt="" /><a href="mailto:dentaville@gmail.com">dentaville@gmail.com</a></li>
+                <li><a href="https://wa.me/212651226061" target="_blank"><img src={wtsp} alt="" />+212 6512-26061</a></li>
+                <li><a href="tel:+212537723030"><img src={tel} alt="" />+212 5377-23030</a></li>
+                <li><a href="mailto:centre.dentaire.dentaville@gmail.com"><img src={mess} alt="" />centre.dentaire.dentaville@gmail.com</a></li>
                 <li><img src={loca} alt="" />Appartement 3, 1er étage<br/>Immeuble 12, Avenue Allal Ben Abdellah<br/>Rabat 10000<br/>Maroc</li>
 
             </ul>

@@ -26,7 +26,7 @@ const About = ({setState}) => {
             <ul>
              <li>Dr Asmae El Ayoubi El Idrissi</li>
              <li>Dr Yasmine Bennani</li>
-             <li>Dr Mamoune Bennani</li>
+             <li>Dr Mamoun Bennani</li>
            </ul>
             <p>Trois chirurgiens-dentistes dynamiques et complémentaires, réunissant leurs compétences 
                pour couvrir l’ensemble des spécialités dentaires. Leur objectif commun : 

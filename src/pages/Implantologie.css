@@ -1,0 +1,148 @@
+.implanto{
+    margin:100px auto;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    width:90%;
+    max-width:1200px;
+}
+
+.implanto-left{
+    flex-basis:40%;
+    display:flex;
+    justify-content:center;
+}
+
+.implanto-right{
+    flex-basis:56%;
+}
+
+.imgImplant{
+    width:100%;
+    max-width:750px;
+    height:auto;
+    border-radius:15px;
+}
+
+.implanto p,
+.implanto ul,
+.implanto li{
+  color:#444;
+  max-width:800px;
+  margin-bottom:8px;
+  text-align:justify;
+  text-justify:inter-word;
+  hyphens:auto;
+  overflow-wrap:break-word;
+  word-break:normal;
+  line-height:1.6;
+  font-weight:500;
+}
+
+.implanto h3{
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.implanto ul{
+    list-style-type:none;
+    padding-left:0;
+}
+
+/* BOX RDV */
+
+.rdv-box{
+    margin-top:30px;
+}
+
+.rdv-actions{
+    display:flex;
+    gap:15px;
+    background:white;
+    padding:18px 22px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    width:fit-content;
+}
+
+.rdv-btn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 16px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:500;
+    color:#333;
+    background:#f7f7f7;
+    transition:0.3s;
+}
+
+.rdv-btn:hover{
+    background:#eeeeee;
+}
+
+.rdv-btn img{
+    width:22px;
+}
+
+.whatsapp{
+    color:#A67C00;
+}
+
+.phone{
+    color:#A67C00;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:900px){
+
+    .implanto{
+        flex-direction:column;
+        gap:35px;
+    }
+    
+    /* TEXTE EN PREMIER */
+    .implanto-right{
+        order:1;
+        width:100%;
+    }
+    
+    /* IMAGE EN DESSOUS */
+    .implanto-left{
+        order:2;
+        width:100%;
+        justify-content:center;
+    }
+    
+    /* IMAGE PLUS PETITE */
+    .imgImplant{
+        width:90%;
+        max-width:420px;
+        margin:auto;
+    }
+    
+    /* TEXTE LARGEUR MOBILE */
+    
+    .implanto p,
+    .implanto ul,
+    .implanto li{
+        max-width:100%;
+    }
+    
+    /* BOUTONS RDV MOBILE */
+    
+    .rdv-actions{
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+    
+    .rdv-btn{
+        width:100%;
+        justify-content:center;
+        text-align:center;
+    }
+    
+    }

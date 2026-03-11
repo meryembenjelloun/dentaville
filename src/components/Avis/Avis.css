@@ -1,7 +1,58 @@
-.avis {
-    margin: 80px auto; /* espace depuis la navbar */
-    width: 100%;
-    max-width: 800px; /* optionnel : limite la largeur du widget */
-    margin-left: auto;
-    margin-right: auto;
+.avis{
+  position: relative;
+  max-width:1200px;
+  margin:100px auto;
+  padding:0 40px;
+}
+.slider{
+  display:flex;
+  gap:25px;
+  overflow-x:auto;
+  scroll-behavior:smooth;
   }
+  
+  .slider::-webkit-scrollbar{
+  display:none;
+  }
+  
+  .slide{
+  min-width:320px;
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.05);
+  }
+  
+  .user-info{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:10px;
+  }
+  
+  .user-info img{
+  width:45px;
+  }
+  
+  .slide p{
+  font-size:15px;
+  line-height:1.6;
+  }
+  .next-btn,
+.back-btn{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:50px;        /* taille réelle des flèches */
+  height:50px;
+  cursor:pointer;
+  z-index:2;
+}
+
+.next-btn{
+  right:-70px;
+}
+
+.back-btn{
+  left:-70px;
+}
