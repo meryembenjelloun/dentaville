@@ -15,7 +15,7 @@
     padding-top:210px;
     }
     
-    /* TEXTE HERO */
+    /* TEXTE */
     
     .hero-text{
     text-align:center;
@@ -29,122 +29,69 @@
     
     .hero-text p{
     max-width:640px;
-    margin:12px auto 20px;
+    margin:12px auto 30px;
     line-height:1.5;
     }
     
-    /* CONTAINER GLOBAL */
+    /* CONTACT */
     
     .hero-contact-container{
     margin-top:40px;
     display:flex;
     justify-content:center;
     align-items:flex-start;
-    gap:40px;
-    flex-wrap:nowrap;
+    gap:50px;
     }
     
-    /* TITRES */
+    /* TITRE */
     
     .hero-section h3{
     font-size:18px;
-    margin-bottom:12px;
+    margin-bottom:14px;
     font-weight:600;
+    color:#000;
     }
     
     /* GRID RDV */
     
     .hero-rdv{
-    display:grid;
-    grid-template-columns:repeat(2,200px);
-    gap:20px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
     }
     
-    /* CARTE CONTACT */
+    /* BOUTON STYLE myBtn */
     
-    .hero-rdv-btn{
-    width:200px;
-    height:90px;
+    .hero-btn{
     
-    display:flex;
+    background:#A67C00;
+    color:#fff;
+    
+    padding:14px 26px;
+    
+    border-radius:30px;
+    
+    font-size:16px;
+    font-weight:500;
+    
+    display:inline-flex;
     align-items:center;
-    justify-content:center;
     gap:10px;
     
-    background:#f2f2f2;
-    
-    border-radius:16px;
-    
     text-decoration:none;
-    color:#A67C00;
     
     transition:0.25s;
+    
     }
     
-    /* ICÔNES */
-    
-    .hero-rdv-btn img{
-    width:22px;
-    height:22px;
-    object-fit:contain;
+    .hero-btn img{
+    width:20px;
     }
     
-    /* TEXTE */
-    
-    .hero-contact-title{
-    font-size:12px;
-    margin:0;
-    font-weight:500;
-    }
-    
-    .hero-contact-number{
-    font-size:14px;
-    font-weight:600;
-    margin:0;
-    }
-    
-    /* URGENCE */
-    
-    .urgence-box{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    width:200px;
-    }
-    
-    /* BOUTON URGENCE */
-    
-    .hero-urgence-btn{
-    width:200px;
-    height:90px;
-    
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:10px;
-    
-    background:#f2f2f2;
-    
-    border-radius:16px;
-    
-    text-decoration:none;
-    color:#A67C00;
-    }
-    
-    /* ICONE URGENCE */
-    
-    .hero-urgence-btn img{
-    width:22px;
-    height:22px;
-    }
-    
-    /* HOVER */
-    
-    .hero-rdv-btn:hover,
-    .hero-urgence-btn:hover{
-    background:#e9e9e9;
+    .hero-btn:hover{
     transform:translateY(-2px);
-    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
     }
     
     /* MOBILE */
@@ -162,59 +109,24 @@
     margin:14px auto 24px;
     }
     
-    /* container */
-    
     .hero-contact-container{
     flex-direction:column;
     align-items:center;
-    gap:15px;
+    gap:20px;
     }
-    
-    /* sections */
-    
-    .hero-section,
-    .urgence-box{
-    width:180px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    }
-    
-    /* grid */
     
     .hero-rdv{
-    grid-template-columns:1fr;
-    gap:10px;
-    width:100%;
+    flex-direction:column;
+    gap:12px;
     }
     
-    /* BOXES */
-    
-    .hero-rdv-btn,
-    .hero-urgence-btn{
-    width:100%;
-    height:70px;
-    padding:8px;
-    border-radius:12px;
-    margin-bottom:10px;
+    .hero-btn{
+    font-size:14px;
+    padding:12px 22px;
     }
     
-    /* icones */
-    
-    .hero-rdv-btn img,
-    .hero-urgence-btn img{
+    .hero-btn img{
     width:18px;
-    height:18px;
-    }
-    
-    /* texte */
-    
-    .hero-contact-title{
-    font-size:11px;
-    }
-    
-    .hero-contact-number{
-    font-size:13px;
     }
     
     }
