@@ -105,13 +105,13 @@
     
     /* TEXTE EN PREMIER */
     .enfant-right{
-        order:1;
+        order:2;
         width:100%;
     }
     
     /* IMAGE EN DESSOUS */
     .enfant-left{
-        order:2;
+        order:1;
         width:100%;
         justify-content:center;
     }

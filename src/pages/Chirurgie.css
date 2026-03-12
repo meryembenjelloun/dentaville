@@ -107,15 +107,17 @@
     
     /* TEXTE */
     .chirurgie-right{
-        order:1;
+       
         width:100%;
+        order:2;
     }
     
     /* IMAGE */
     .chirurgie-left{
-        order:2;
+        
         width:100%;
         justify-content:center;
+        order:1;
     }
     
     /* IMAGE PLUS PETITE */

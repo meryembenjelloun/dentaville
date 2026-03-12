@@ -107,13 +107,13 @@
     
     /* TEXTE EN PREMIER */
     .implanto-right{
-        order:1;
+        order:2;
         width:100%;
     }
     
     /* IMAGE EN DESSOUS */
     .implanto-left{
-        order:2;
+        order:1;
         width:100%;
         justify-content:center;
     }

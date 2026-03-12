@@ -54,7 +54,7 @@ const Services = () => {
             <img src={gouttieres} alt="" />
             <div className="caption">
             <img src={icon} alt="" />
-            <h1>Orthodontie invisible (aligneurs)</h1>
+            <h1>Orthodontie par aligneurs</h1>
             <p>Correction discrète de l'alignement dentaire</p>
         </div>
         </Link>
