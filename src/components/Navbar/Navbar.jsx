@@ -25,14 +25,19 @@ const Navbar = () => {
 
     <nav className={`${sticky ? 'dark-nav' : ''}`}>
 
-      <Link to="/#hero">
+<Link 
+  to="/" 
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+>
         <img src={logo} alt="Dentaville" className="logo"/>
       </Link>
 
       <ul className={mobileMenu ? '' : 'hideMenu'}>
 
         <li>
-          <Link to="/#hero" onClick={() => setMenu(false)}>
+          <Link   to="/" 
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            
             Accueil
           </Link>
         </li>
