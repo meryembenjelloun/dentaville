@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import enfant from '../assets/enfants.png'
 import './Enfants.css'
-import tel from '../assets/telephone-call.png'
-import wtsp from '../assets/whatsapp.png'
+import tel from '../assets/telep.png'
+import wtsp from '../assets/what.png'
 
 const Enfants = () => {
     return (
@@ -70,7 +70,7 @@ régulier pour préserver la santé bucco-dentaire des plus jeunes.
   href="https://wa.me/212651226061" 
   target="_blank" 
   rel="noopener noreferrer" 
-  className="rdv-btn whatsapp"
+  className="hero-btn"
 >
   <img src={wtsp} alt="WhatsApp" />
   +212 6512-26061
@@ -78,7 +78,7 @@ régulier pour préserver la santé bucco-dentaire des plus jeunes.
 
 <a 
   href="tel:+212537723030" 
-  className="rdv-btn phone"
+  className="hero-btn"
 >
   <img src={tel} alt="Téléphone" />
   +212 5377-23030

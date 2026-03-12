@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import radiologie from '../assets/8.png'
 import './Radiologie.css'
-import tel from '../assets/telephone-call.png'
-import wtsp from '../assets/whatsapp.png'
+import tel from '../assets/telep.png'
+import wtsp from '../assets/what.png'
 
 const Radiologie = () => {
     return (
@@ -75,7 +75,7 @@ adapté afin de préserver la santé bucco-dentaire.
 href="https://wa.me/212651226061"
 target="_blank"
 rel="noopener noreferrer"
-className="rdv-btn whatsapp"
+className="hero-btn"
 >
 <img src={wtsp} alt="WhatsApp"/>
 +212 6512-26061
@@ -83,7 +83,7 @@ className="rdv-btn whatsapp"
 
 <a 
 href="tel:+212537723030"
-className="rdv-btn phone"
+className="hero-btn"
 >
 <img src={tel} alt="Téléphone"/>
 +212 5377-23030

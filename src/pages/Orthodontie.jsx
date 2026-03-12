@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import gouttiere from '../assets/gouttieres.png'
 import './Orthodontie.css'
-import tel from '../assets/telephone-call.png'
-import wtsp from '../assets/whatsapp.png'
+import tel from '../assets/telep.png'
+import wtsp from '../assets/what.png'
 
 const Orthodontie = () => {
     return (
@@ -74,7 +74,7 @@ tout en conservant un sourire naturel pendant le traitement.
 href="https://wa.me/212651226061"
 target="_blank"
 rel="noopener noreferrer"
-className="rdv-btn whatsapp"
+className="hero-btn"
 >
 <img src={wtsp} alt="WhatsApp"/>
 +212 6512-26061
@@ -82,7 +82,7 @@ className="rdv-btn whatsapp"
 
 <a 
 href="tel:+212537723030"
-className="rdv-btn phone"
+className="hero-btn"
 >
 <img src={tel} alt="Téléphone"/>
 +212 5377-23030

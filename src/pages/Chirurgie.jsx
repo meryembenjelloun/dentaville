@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import chirurgie from '../assets/chirurgie.png'
 import './Chirurgie.css'
-import tel from '../assets/telephone-call.png'
-import wtsp from '../assets/whatsapp.png'
+import tel from '../assets/telep.png'
+import wtsp from '../assets/what.png'
 const Chirurgie = () => {
     return (
         <div>
@@ -64,7 +64,7 @@ l’intervention afin de garantir un traitement efficace et un suivi adapté.
   href="https://wa.me/212651226061" 
   target="_blank" 
   rel="noopener noreferrer" 
-  className="rdv-btn whatsapp"
+  className="hero-btn"
 >
   <img src={wtsp} alt="WhatsApp" />
   +212 6512-26061
@@ -72,7 +72,7 @@ l’intervention afin de garantir un traitement efficace et un suivi adapté.
 
 <a 
   href="tel:+212537723030" 
-  className="rdv-btn phone"
+  className="hero-btn"
 >
   <img src={tel} alt="Téléphone" />
   +212 5377-23030

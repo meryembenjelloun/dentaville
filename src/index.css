@@ -32,6 +32,34 @@ a{
 
     
 }
+.hero-btn{
+    
+  background:#A67C00;
+  color:#fff;
+  
+  padding:14px 26px;
+  
+  border-radius:30px;
+  
+  font-size:16px;
+  font-weight:500;
+  
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  
+  text-decoration:none;
+  
+  transition:0.25s;
+  
+  }
+  .hero-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    }
+  .hero-btn img{
+    width:20px;
+    }
 
 .myBtn img{
   width:20px;
@@ -53,4 +81,12 @@ html{
     .myBtn{
       padding: 14px 22px;
     }
+    .hero-btn{
+      font-size:14px;
+      padding:12px 22px;
+      }
+      
+      .hero-btn img{
+      width:18px;
+      }
 }
