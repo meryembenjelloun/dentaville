@@ -12,7 +12,7 @@ const FAQ = () => {
     {id:1, 
     question: "Quels sont vos horaires de consultation ?",
     answer: 
-      "Nous vous accueillons du lundi au vendredi, de 9h à 18h, sur rendez-vous."},
+      "Nous vous accueillons du lundi au vendredi, de 9h à 18h et le samedi de 9h à 13h, sur rendez-vous."},
     { id:2, 
       question: "Proposez-vous des consultations d'urgence ?",
       answer:
